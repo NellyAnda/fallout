@@ -11,6 +11,197 @@ body {
 img {
 	width: 100%;
 }
+ 
+h1 {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+h2 {
+	background-color: #CD9C22;
+	padding: 30px 8px 30px 10px;
+	font-size: 3em;
+	font-weight: 600;
+	writing-mode: vertical-lr;
+  -webkit-writing-mode: vertical-lr;
+	-ms-writing-mode: vertical-lr;
+	transform: rotate(180deg);
+	width: 10%;
+	margin: 20px 30px 0 0;
+	border: 2px solid rgb(22, 21, 21);
+}
+
+h3 {
+	font-weight: 300;
+	font-size: 55px;
+	font-style: italic;
+	padding: 30px;
+	line-height: 65px;
+	margin-top: 15px;
+}	
+
+li {
+	margin: 0 25px 0 30px;
+	font-size: 22px;
+	list-style-position: inside;	
+	line-height: 35px;
+}
+
+footer {
+	height: 320px;
+	width: 100%;
+	background-color: rgb(31, 30, 31);
+	margin-top: 50px;
+}
+
+.textofheader {
+	width: 100%;
+}
+
+.imageheader {
+	margin-top: 2px;
+	width: 100%;
+}
+
+.header_title {
+	position: absolute;
+	top: 110px;
+	color: white;
+	margin-left: 70px;
+	width: 50%;
+}
+
+.sub_title,
+.central_part {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.title_header {
+	font-size: 4em;
+	font-style: normal;
+	font-weight: 600;
+}
+
+.names {
+	font-weight: 900;
+	font-style: italic;
+}	
+
+.yellowfine {
+	color:#CD9C22;
+	font-weight: 100;
+	font-size: 4em;
+	font-style: italic;
+	font-family: 'Yantramanav';
+}
+
+.border_of_main_content {
+	border-left: 12px solid #CD9C22;
+	height: 540px;
+	margin-left: 150px;
+	margin-right: 65px;
+	border-radius: 5px;
+}
+
+.main_content {
+	height: 100%;
+	width: 80%;
+	margin: 80px 40px 40px 60px;
+	text-align: justify;
+	font-size: 23px;
+	padding-bottom: 30px;
+}
+
+.yellow {
+  color: #CD9C22;
+	font-weight: bolder;
+	font-style: italic;
+}
+
+.presentation {
+	margin-bottom: 30px;
+}
+
+.finest {
+	font-weight: 200;
+	margin-bottom: 40px;
+	font-size: 26px;
+}
+
+.fine {
+	font-weight: 300;
+	font-style: italic;
+}
+
+.fineitalic {
+	font-style: italic;
+	font-weight: 200;
+}
+
+.list_item {
+	position: relative;
+	left: 30px;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.text_stamp_footer {
+	font-weight: bolder;
+}
+
+.fallout_guy_space {
+	width: 20%;
+	margin-left: 90px;
+}
+
+.fallout_guy,
+.yellow_stamp {
+	height: 240px;
+	width: 240px;
+}
+
+.yellow_stamp_space {
+	padding-bottom: 80px;
+	width: 33%;
+}
+
+.container_text_stamp_footer {
+	position: absolute;
+	text-align: center;
+	padding-top: 65px;
+	padding-left: 30px;
+	font-size: 23px;
+	line-height: 30px;
+	
+}
+
+.text_footer p {
+	text-align: center;
+	color: white;
+	padding-top: 30px;
+	font-family: 'Lobster', cursive;
+	font-size: 3rem;
+	padding-bottom: 150px;
+}
+
+/*
+* {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+body {
+	background: radial-gradient(#FAFAFA, #FAFAFA, #d4d3d3);
+	width: 100%;
+}
+
+img {
+	width: 100%;
+}
 
 h2 {
 	background-color: #CD9C22;
@@ -333,7 +524,6 @@ footer {
 	.yellow_stamp_space {
 		margin-right: 10px;
 		padding-bottom: 10px;
-		
 	}
 	
 	.container_text_stamp_footer {
@@ -347,10 +537,8 @@ footer {
 	.text_footer {
 		font-size: 2em;
 		padding-top: 80px;
-	
-
 	}
 }
 
 
-
+ */ */

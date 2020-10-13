@@ -83,21 +83,23 @@ footer {
 	color:#CD9C22;
 	font-weight: 100;
 	font-size: 4em;
+	font-style: italic;
+	font-family: 'Yantramanav';
 }
 
 .border_of_main_content {
 	border-left: 12px solid #CD9C22;
-	height: 520px;
+	height: 540px;
 	margin-left: 150px;
 	margin-right: 65px;
-	border-radius: 3px;
+	border-radius: 5px;
 	float: left;
 }
 
 .main_content {
 	height: 100%;
-	width: 90%;
-	margin: 80px 40px 40px 10px;
+	width: 80%;
+	margin: 80px 40px 40px 60px;
 	text-align: justify;
 	font-size: 23px;
 	padding-bottom: 30px;
@@ -134,7 +136,6 @@ footer {
 	left: 30px;
 }
 
-
 .text_stamp_footer {
 	font-weight: bolder;
 }
@@ -145,7 +146,8 @@ footer {
 	margin-left: 90px;
 }
 
-.fallout_guy {
+.fallout_guy,
+.yellow_stamp {
 	height: 240px;
 	width: 240px;
 }
@@ -155,11 +157,6 @@ footer {
 	margin-right: 80px;
 	padding-bottom: 80px;
 }
-
-.yellow_stamp {
-	height: 240px;
-	width: 240px;
-} 
 
 .container_text_stamp_footer {
 	float: right;
@@ -178,4 +175,182 @@ footer {
 	font-family: 'Lobster', cursive;
 	font-size: 3rem;
 }
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+	h2 {
+		font-size: 2em;
+	}
+	
+	h3 {
+		font-size: 35px;
+		line-height: 50px;
+		margin-top: 0;
+	}	
+	
+	footer {
+		height: 250px;
+	}	
+
+	.header_title {
+		top: 60px;
+	}
+	
+	.title_header,
+	.yellowfine  {
+		font-size: 3em;
+	}
+	
+	.border_of_main_content {
+		height: 580px;
+		margin-left: 60px;
+		margin-right: 50px;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+	
+	h2 {
+		font-size: 2em;
+	} 
+	
+	h3 {
+		font-size: 30px;
+		line-height: 45px;
+		margin: 0;
+	}	
+	
+	.header_title {
+		top: 45px;
+	}
+	
+	.title_header,
+	.yellowfine  {
+		font-size: 2em;
+	} 
+	
+	.border_of_main_content {
+		height: 720px;
+		margin-left: 60px;
+		margin-right: 50px;
+	}
+
+	.fallout_guy_space {
+		margin-left: 40px;
+	}
+
+	.fallout_guy {
+		height: 240px;
+		width: 240px;
+	}
+
+	.yellow_stamp_space {
+		margin-right: 35px;
+	}
+
+	.container_text_stamp_footer {
+		padding-left: 30px;
+	}
+
+	.text_footer {
+		margin-left: 280px;
+	}
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+
+	h2 {
+		font-size: 1em;
+		padding: 30px 8px 30px 5px;
+		margin: 5px 5px 0 0;
+}
+	
+	h3 {
+		font-size: 18px;
+		line-height: 25px;
+		margin: 0;
+		padding: 15px;	
+	}	
+	
+	.header_title {
+		top: 20px;
+		margin-left: 25px;
+	}
+	
+	.title_header,
+	.yellowfine  {
+		font-size: 1em;
+	} 
+	
+	.border_of_main_content {
+		display: none;
+	}
+
+	li {
+		width: 90%;
+		margin: 0 25px 0 0;
+		font-size: 15px;
+		line-height: 24px;
+	}
+	
+	footer {
+		height: 190px;
+		width: 100%;
+		background-color: rgb(31, 30, 31);
+		margin-top: 115px;
+	}
+
+	.main_content {
+		width: 90%;
+		margin: 50px 20px 30px 20px;
+		font-size: 15px;
+		padding-bottom: 10px;
+	}
+
+	.presentation {
+		margin-bottom: 20px;
+	}
+	
+	.finest {
+		margin-bottom: 20px;
+		font-size: 18px;
+	}
+	
+	.list_item {
+		left: 0;
+	}
+
+	.fallout_guy_space {
+		margin-left: 10px;
+	}
+
+	.fallout_guy,
+	.yellow_stamp {
+		height: 150px;
+		width: 150px;
+	}
+
+	.yellow_stamp_space {
+		margin-right: 10px;
+		padding-bottom: 10px;
+		
+	}
+	
+	.container_text_stamp_footer {
+		padding-left: 30px;
+		font-size: 15px;
+		padding-top: 30px;
+		padding-left: 15px;
+		line-height: 20px;
+	}
+
+	.text_footer {
+		font-size: 2em;
+		padding-top: 80px;
+	
+
+	}
+}
+
+
 
